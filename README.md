@@ -7,9 +7,13 @@ Continuously reposition an instance MPC-HC to upper section of any screen
 
 Usage:
 Launch script (personally: with Launchy)
+
 Activate desired window (personally: video file in MPC-HC)
+
 [INS] to switch to next monitor
+
 [ESC] to end 'repositioning'
+
 
 Description:
 AutoHotKey script to mitigate the problem of having a partially obscured TV screen tucked away in a weird spot!
