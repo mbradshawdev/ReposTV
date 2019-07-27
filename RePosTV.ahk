@@ -61,6 +61,7 @@ CheckValidScreen:
   i++						; Otherwise try next screen#
  }
  GoSub, GetCoordsMove				;Make a move now
+ FileDelete, i.txt				;Delete previous screen#
  FileAppend, %i%, i.txt				;Store the valid screen#
 Return
 ;-----------------------------------------------------------------------
@@ -91,6 +92,7 @@ Return
 ;----------------------------------------------------------------------
 INS::	;Hotkey to hot switch between up to 10 monitors
  i++
+ WinActivate, %mpcID%		;Interaction should activate, feels right
  GoSub, CheckValidScreen
 Return
 ;----------------------------------------------------------------------
