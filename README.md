@@ -1,5 +1,5 @@
                           /====================\
-                          |      RePosTV       |
+                                RePosTV       
                           \====================/
 Continuously reposition an instance MPC-HC Instance to upper section of any screen
 ----------------------------------------------------------------------------------
